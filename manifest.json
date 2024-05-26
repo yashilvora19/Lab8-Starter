@@ -4,7 +4,7 @@
     "description": "This is the explore section of my 110 Lab",
     "start_url": "",
     "display": "fullscreen",
-    "background_color": "",
+    "background_color": "orange",
     "theme_color": "orange",
     "icons": [
       {
@@ -24,11 +24,6 @@
       },
       {
         "src": "/assets/images/icons/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      },
-      {
-        "src": "/assets/images/icons/arrow-down.png",
         "sizes": "512x512",
         "type": "image/png"
       }
