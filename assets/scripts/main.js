@@ -50,7 +50,7 @@ function initializeServiceWorker() {
       try {
         // await may not be needed.
         // may not neeed try catch
-        const registration = await navigator.serviceWorker.register("./sw.js");
+        const registration = navigator.serviceWorker.register("./sw.js");
           // scope: "/",
         // });
         if (registration.installing) {
